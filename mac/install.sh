@@ -18,7 +18,7 @@ for i in $( cat list/cask ); do
    brew cask install $i
 done
 for i in $( cat list/atom ); do
-   brew install $i
+   apm install $i
 done
 # Cleanup
 brew cleanup
